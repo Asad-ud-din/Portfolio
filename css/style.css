@@ -1,0 +1,55 @@
+/* navbar */
+
+.navbar a{
+    color: white;
+}
+
+.navbar img{
+    width: 60px;
+    cursor: pointer;
+}
+
+.navbar-nav a:hover{
+    background-color: white;
+    color: black;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s linear;
+}
+
+
+
+
+/* project */
+
+.card-size{
+   width: 15rem;
+   cursor: pointer;
+}
+
+/* contact */
+
+.icons a{
+    color: rgb(0, 0, 0);
+}
+.icons a:hover{
+    color: blue;
+}
+
+@media only screen and (max-width:766px) {
+    .text-size{
+        height: 300px;
+    }
+}
